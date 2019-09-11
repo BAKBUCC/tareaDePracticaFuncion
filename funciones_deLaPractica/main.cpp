@@ -49,7 +49,7 @@ int fibonacci(int n)
     long long siguiente=1;
     long long subsiguiente=1;
     int fibo;
-    n=n-2;
+    n=n-1;
     while(n>0)
     {
         fibo = siguiente + subsiguiente;
@@ -97,7 +97,7 @@ void caracterMayuscula(char caracter)
 int main()
 {
     //1
-    cout<<"coloque un númerode 5 digitos" << endl;
+    cout<<"coloque un nÃºmerode 5 digitos" << endl;
     int n;
     cin >> n;
     if (n-10000>=0 && 100000-n>0)
@@ -106,11 +106,11 @@ int main()
     }
     else
     {
-        cout<<"no colocó un número de 5 digitos"<<endl;
+        cout<<"no colocÃ³ un nÃºmero de 5 digitos"<<endl;
     }
 
     //2
-    cout <<"coloque un número"<< endl;
+    cout <<"coloque un nÃºmero"<< endl;
     int number;
     cin >> number;
     if (number == 1)
@@ -148,7 +148,7 @@ int main()
 
 
     //4
-    cout<<"coloque la posicion del número de fibonacci que quiere:  ";
+    cout<<"coloque la posicion del nÃºmero de fibonacci que quiere:  ";
     int lugar;
     cin >> lugar;
     int fibo;
@@ -174,11 +174,11 @@ int main()
     bool boleano=caracterNumero(numero);
     if (boleano==true)
     {
-        cout << numero << " es un número" << endl;
+        cout << numero << " es un nÃºmero" << endl;
     }
     else
     {
-        cout << numero << " no es un número" << endl;
+        cout << numero << " no es un nÃºmero" << endl;
     }
     cout << "coloque un caracter letra(mayuscula o minuscula):  ";
 
